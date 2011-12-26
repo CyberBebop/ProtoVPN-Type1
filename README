@@ -1,0 +1,10 @@
+ProtoVPN-Type1
+
+This is an OpenVPN + PHP + MySql user management system.
+
+This project is the framework for a website which takes signups for your VPN and optinally takes paypal payments. VPN user accunts can be managed from the html interface. 'Enable', 'Disable' accounts, and sell users extra time or Megabytes via paypal.
+Ideally, the webserver sould be a seperate server from the VPN servers. The VPN servers will communicate with the webserver to get the acount status of users who try to connect.
+
+Required: Linux + Apache + PHP + MySql + OpenVPN 
+
+Unzip the project into the HTML directory of the web server. Chmod 755.
